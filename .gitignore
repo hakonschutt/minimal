@@ -1,0 +1,10 @@
+/vendor/
+/public/wp
+/public/wp-content
+!/public/wp-content/themes
+
+# Development environment settings
+/.idea
+
+# Front End folders
+/node_modules

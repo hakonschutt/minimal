@@ -1,0 +1,28 @@
+/*
+Theme Name: Almost Nothing
+Theme URI:
+Author: khromov
+Author URI:
+Description: An experiment in minimal design. Based on "Smallest Theme Ever" by wycks
+Version: 1.0
+License: GNU General Public License
+Tags: minimal
+*/
+
+body
+{
+    background-color: black;
+    color: mintcream;
+}
+
+a, a:visited
+{
+    color: mintcream;
+}
+
+.container
+{
+    max-width: 900px;
+    margin: 0 auto;
+}
+

@@ -1,0 +1,16 @@
+{
+  "name": "aek/minimal",
+  "authors": [
+    {
+      "name": "Andreas Ek",
+      "email": "andreas@elseif.se"
+    }
+  ],
+  "require": {
+    "composer/installers": "*",
+    "johnpbloch/wordpress": "*"
+  },
+  "extra": {
+    "wordpress-install-dir": "public/wp"
+  }
+}
