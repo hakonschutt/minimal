@@ -5,7 +5,7 @@ Requirements:
 * PHP and a MySql-database
 * PHP Composer
 
-1. `mkdir minimal &&`
+1. `mkdir minimal`
 1. `cd minimal`
 1. `composer init`
 1. `composer update`
