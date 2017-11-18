@@ -6,11 +6,25 @@
       "email": "andreas@elseif.se"
     }
   ],
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://wpackagist.org"
+    }
+  ],
   "require": {
     "composer/installers": "*",
     "johnpbloch/wordpress": "*"
   },
   "extra": {
-    "wordpress-install-dir": "public/wp"
+    "wordpress-install-dir": "public/wp",
+    "installer-paths": {
+      "public/wp-content/themes/{$name}/": [
+        "type:wordpress-theme"
+      ],
+      "public/wp-content/plugins/{$name}/": [
+        "type:wordpress-plugin"
+      ]
+    }
   }
 }
