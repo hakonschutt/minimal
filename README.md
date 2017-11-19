@@ -44,3 +44,9 @@ Next up!
 
 This is an example of a minimal composer based WordPress development environment.
 We advise you to use Roots / Bedrock!
+
+# WordCamp 2017
+
+* PHP Deployer: https://deployer.org
+* Bedrock: https://www.roots.io/bedrock
+* Laravel Valet: https://laravel.com/docs/5.5/valet
