@@ -1,30 +1,31 @@
 {
-  "name": "aek/minimal",
-  "authors": [
-    {
-      "name": "Andreas Ek",
-      "email": "andreas@elseif.se"
+    "name": "hakonschutt/minimal",
+    "authors": [
+        {
+            "name": "Hakon Schutt",
+            "email": "hakon@schutt.no"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://wpackagist.org"
+        }
+    ],
+    "require": {
+        "composer/installers": "^1.4",
+        "johnpbloch/wordpress": "^4.9",
+        "wpackagist-theme/twentyseventeen": "^1.4"
+    },
+    "extra": {
+        "wordpress-install-dir": "public/wp",
+        "installer-paths": {
+            "public/wp-content/themes/{$name}/": [
+                "type:wordpress-theme"
+            ],
+            "public/wp-content/plugins/{$name}/": [
+                "type:wordpress-plugin"
+            ]
+        }
     }
-  ],
-  "repositories": [
-    {
-      "type": "composer",
-      "url": "https://wpackagist.org"
-    }
-  ],
-  "require": {
-    "composer/installers": "*",
-    "johnpbloch/wordpress": "*"
-  },
-  "extra": {
-    "wordpress-install-dir": "public/wp",
-    "installer-paths": {
-      "public/wp-content/themes/{$name}/": [
-        "type:wordpress-theme"
-      ],
-      "public/wp-content/plugins/{$name}/": [
-        "type:wordpress-plugin"
-      ]
-    }
-  }
 }
