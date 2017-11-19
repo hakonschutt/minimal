@@ -50,3 +50,6 @@ We advise you to use Roots / Bedrock!
 * PHP Deployer: https://deployer.org
 * Bedrock: https://www.roots.io/bedrock
 * Laravel Valet: https://laravel.com/docs/5.5/valet
+* PHPCI: https://www.phptesting.org/
+* GitLab: https://about.gitlab.com/
+* Terminal: http://ohmyz.sh/
