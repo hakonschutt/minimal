@@ -11,8 +11,8 @@ require_once($root . '/vendor/autoload.php');
 /**
  * URL
  */
-define('WP_HOME', 'http://localhost:8000');
-define('WP_SITEURL', 'http://localhost:8000/wp');
+define('WP_HOME', 'http://min.dev');
+define('WP_SITEURL', 'http://min.dev/wp');
 
 /**
  * CUSTOM CONTENT DIRECTORY

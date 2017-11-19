@@ -14,7 +14,7 @@
     ],
     "require": {
         "composer/installers": "^1.4",
-        "johnpbloch/wordpress": "^4.9",
+        "johnpbloch/wordpress": "*",
         "wpackagist-theme/twentyseventeen": "^1.4"
     },
     "extra": {

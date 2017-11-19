@@ -6,5 +6,8 @@
 # Development environment settings
 /.idea
 
+# Mac related
+/.DS_Store
+
 # Front End folders
 /node_modules
